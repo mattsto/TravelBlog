@@ -10,6 +10,8 @@
 <header class="main-header no-cover">
 {{end}}
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     <nav class="main-nav overlay clearfix">
         {{ if .Site.Params.logo }}
             <a class="blog-logo" href="{{ .Permalink }}"><img src="{{ .Site.Params.logo  | relURL}}" alt="Blog Logo" /></a>
@@ -40,5 +42,17 @@
 {{ partial "home-content.html" . }}
 
 </main>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 {{ partial "footer.html" . }}
