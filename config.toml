@@ -1,0 +1,7 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Tajlandia"
+theme = "hugo-theme-casper-master"
+
+[params]
+cover = "images/home.jpg"
