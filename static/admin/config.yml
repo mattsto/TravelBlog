@@ -16,5 +16,5 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Author", name: "author", widget: "string", default: "Natasza"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "image", widget: "image", default: "static/images/home.jpg"}
+      - {label: "Featured Image", name: "image", widget: "image", default: "images/home.jpg"}
       - {label: "Body", name: "body", widget: "markdown"}
