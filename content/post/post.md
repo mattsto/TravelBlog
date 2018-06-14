@@ -1,8 +1,9 @@
 ---
-title: first
+title: Wprowadzenie
 author: Natasza
 date: '2018-06-14T20:05:58+02:00'
 image: /images/uploads/indeks.jpg
+draft = false
 ---
 trzy dni do wyjazdu. zaczyna w głowę wkradać się chaos :). niby wszystko dopięte na ostatni guzik a jednak..... 
 
